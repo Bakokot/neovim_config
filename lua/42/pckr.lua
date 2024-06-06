@@ -76,4 +76,35 @@ require('pckr').add{
 		}
 	end,
 	};
+	-- LSP setup
+	{
+		"williamboman/mason.nvim",
+	};
+	{
+		"williamboman/mason-lspconfig.nvim",
+	};
+	{
+    		"neovim/nvim-lspconfig",
+	};
+	-- Autocompletion and snippets
+	{
+		-- Snippet tool
+		"L3MON4D3/LuaSnip",
+	};
+	{
+		-- Snippet tool
+		"saadparwaiz1/cmp_luasnip"
+	};
+	{
+		-- VS Code snippets ised by Luasnip
+		"rafamadriz/friendly-snippets"
+	};
+	{
+		-- Snippets from LSP
+		"hrsh7th/cmp-nvim-lsp",
+	};
+	{
+		-- Completion Module
+		"hrsh7th/nvim-cmp"
+	};
 }
