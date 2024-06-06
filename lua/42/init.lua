@@ -1,3 +1,5 @@
 require("42.pckr")
 require("42.vimsettings")
 require("42.remap")
+require("42.plugin.telescope")
+require("42.plugin.treesitter")
